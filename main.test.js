@@ -40,8 +40,8 @@ describe('isValidPrimary', () => {
   })
 })
 
-describe('isValidPrimary', () => {
-  it('returns whether the given color is a valid primary color', () => {
+describe('isValidSecondary', () => {
+  it('returns whether the given color is a valid secondary color', () => {
     const validSecondary1 = 'orange';
     const validSecondary2 = 'purple';
     const validSecondary3 = 'green';
