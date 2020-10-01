@@ -1,32 +1,26 @@
 const isValidSecondary = require("./is-valid-secondary");
-
 /******************
  * YOUR CODE HERE *
  ******************/
-function isValidPrimary(PrimaryInput1, PrimaryInput2){
-  isValidSecondary(validSecInput1)
+function isValidPrimary(PrimaryInput1){
 
   const validPrim1 = 'red';
   const validPrim2 = 'yellow';
   const validPrim3 = 'blue';
 
-
-
-  if((validPrim1 == PrimaryInput1) && (validPrim2 == PrimaryInput2)) {
-    return validSecond1;
+  if(validPrim1 == PrimaryInput1) {
+    return true;
   }
-  if((validPrim1 == PrimaryInput1) && (validPrimary3 == PrimaryInput2)) {
-    return validSecond2;
+  if(validPrim2 == PrimaryInput1) {
+    return true;
   }
-  if((validPrim3 == PrimaryInput1) && (validPrim2 == PrimaryInput2)) {
-    return validSecond3;
+  if(validPrim3 == PrimaryInput1) {
+    return true;
   }
   else {
-    return 'Invalid Color';
+    return false;
   }
 }
-// isValidPrimary('red', 'blue');
-// isValidPrimary;
 
 
 

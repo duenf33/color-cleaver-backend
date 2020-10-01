@@ -3,25 +3,24 @@
  ******************/
 
 function isValidSecondary(validSecInput1){
-const validSecond1 = 'orange';
-const validSecond2 = 'purple';
-const validSecond3 = 'green';
+
+  const validSecond1 = 'orange';
+  const validSecond2 = 'purple';
+  const validSecond3 = 'green';
 
   if(validSecond1 == validSecInput1) {
-    return 'red', 'yellow';
+    return true;
   }
   if(validSecond2 == validSecInput1) {
-    return 'red', 'blue';
+    return true;
   }
   if(validSecond3 == validSecInput1) {
-    return 'yellow', 'blue';
+    return true;
   }
   else {
-    console.log('Invalid Color');
+    return false;
   }
 }
-// isValidSecondary('good');
-// isValidSecondary;
 
 
 // Our setup code here. Don't touch!
